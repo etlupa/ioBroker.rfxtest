@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "rfxtest",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Teste",
+		"titleLang": {
+			"en": "Teste",
+			"de": "Teste",
+			"ru": "удостоверительная часть судебного приказа",
+			"pt": "Teste",
+			"nl": "Teste",
+			"fr": "Teste",
+			"it": "Teste",
+			"es": "Prueba",
+			"pl": "Teste",
+			"zh-cn": "睾丸"
+		},
+		"desc": {
+			"en": "rfxtest",
+			"de": "rfxtest",
+			"ru": "rfxtest",
+			"pt": "rfxtest",
+			"nl": "rfxtest",
+			"fr": "rfxtest",
+			"it": "rfxtest",
+			"es": "rfxtest",
+			"pl": "rfxtest",
+			"zh-cn": "射频测试"
+		},
+		"authors": [
+			"etlupa <etlupa@hotmail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "rfxtest.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/etlupa/ioBroker.rfxtest/master/admin/rfxtest.png",
+		"readme": "https://github.com/etlupa/ioBroker.rfxtest/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "lighting",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
